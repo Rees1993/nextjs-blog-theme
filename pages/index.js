@@ -59,7 +59,7 @@ export default function Index({ posts, globalData }) {
   );
 }
 
-export function getStaticProps() {
+export function getServerSideProps() {
   const posts = getPosts();
   const globalData = getGlobalData();
 
